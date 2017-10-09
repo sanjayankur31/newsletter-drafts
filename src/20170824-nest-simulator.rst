@@ -111,10 +111,10 @@ occurs on Github_. The development workflow is documented in detail at the
 includes various topics such as the development workflow, programming
 guidelines, and walkthroughs for writing simple extensions. A fortnightly
 `Open NEST Developer's video conference
-<https://github.com/nest/nest-simulator/wiki/Open-NEST-Developer-Video-Conference>`__`
+<https://github.com/nest/nest-simulator/wiki/Open-NEST-Developer-Video-Conference>`__
 brings developers together to disuss bugs and feature requests. The NEST_
 `core development team
-<https://github.com/orgs/nest/teams/nest-simulator-developers/members>` are
+<https://github.com/orgs/nest/teams/nest-simulator-developers/members>`__ are
 always on the lookout for new contributors to help make NEST_ more useful to
 the neuroscience community.
 
