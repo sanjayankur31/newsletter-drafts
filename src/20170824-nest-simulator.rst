@@ -97,6 +97,58 @@ Example usage
 Troubleshooting and getting help
 ================================
 
+Documentation for all models available in NEST_ are provided with the
+installation. For example, the Python interpreter can be used to access the
+documentation on various functions provided by the Python API:
+
+
+.. code:: bash
+
+    import nest
+    .....
+
+    help(nest.Create)
+    ...
+    ...
+    Help on function Create in module nest.lib.hl_api_nodes:
+
+    Create(model, n=1, params=None)
+    Create n instances of type model.
+
+    Parameters
+    ----------
+    model : str
+        Name of the model to create
+    n : int, optional
+        Number of instances to create
+    params : TYPE, optional
+        Parameters for the new nodes. A single dictionary or a list of
+        dictionaries with size n. If omitted, the model's defaults are used.
+
+    Returns
+    -------
+    list:
+        Global IDs of created nodes
+
+
+An alphabetised reference on NEST_ can be accessed via the helpdesk that can be
+accessed by opening :code:`$INSTALL_PATH/help/helpindex.html` in a web browser
+of choice. This can also be brought up directly from the Python interpreter:
+
+.. code:: bash
+
+    import nest
+    .....
+    nest.helpdesk()  # opens the helpdesk in the default web browser
+
+
+The NEST_ website also provides a complete `command reference
+<http://www.nest-simulator.org/helpindex/>`__ and various `examples
+<http://www.nest-simulator.org/more-example-networks/>`__.
+
+For issues, suggestions, and advice on using NEST_, the NEST_ users' `mailing
+list <http://mail.nest-initiative.org/cgi-bin/mailman/listinfo/nest_user>`__
+also exists to support NEST_ users.
 
 Show case study
 ================
