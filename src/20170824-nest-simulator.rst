@@ -90,8 +90,18 @@ interpreter:
     >>>
 
 
-Example usage
-=============
+Show case study
+================
+
+`A balanced neuron example
+<http://www.nest-simulator.org/py_sample/balanced-neuron-example/>`__
+simulates a neuron driven by an excitatory and an inhibitory population of
+neurons. The goal is to find a firing rate of the inhibitory population that
+will cause the neuron to fire at a firing rate same as the excitatory
+population.
+
+`More examples <http://www.nest-simulator.org/more-example-networks/>`__ are
+also available!
 
 
 Troubleshooting and getting help
@@ -149,10 +159,6 @@ The NEST_ website also provides a complete `command reference
 For issues, suggestions, and advice on using NEST_, the NEST_ users' `mailing
 list <http://mail.nest-initiative.org/cgi-bin/mailman/listinfo/nest_user>`__
 also exists to support NEST_ users.
-
-Show case study
-================
-
 
 A word on the NEST developer community
 ======================================
