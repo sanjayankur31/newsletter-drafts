@@ -29,7 +29,7 @@ obtained from various packaging systems or directly from their websites:
 - `Python <https://python.org>`__ (Note that NEST_ supports both versions 2
   and 3 of Python)
 - `The GNU C compiler collection <https://gcc.gnu.org/>`__
-- `The Boost C++ libraries <http://www.boost.org/>__`
+- `The Boost C++ libraries <http://www.boost.org/>`__
 - `An implementation of the MPI protocol <http://mpi-forum.org/>`__ for use on
   clusters/supercomputers - `Open MPI <https://www.open-mpi.org/>`__ and
   `MPICH2 <https://www.mpich.org/>`__ are commonly used.
