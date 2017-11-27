@@ -5,8 +5,26 @@
 \author{Ankur Sinha}
 \begin{document}
 \maketitle
-Among the various simulators that computational neuroscientists use for modelling the brain is the \href{http://www.nest-simulator.org}{NEST (Neural Simulation Tool)}. Over \href{http://www.nest-simulator.org/publications/}{300 models} have been implemented in NEST since its initial release in 1994 as SYNOD\@. Since then, NEST development has thrived via contributions from developers from the world over under the watchful eye of \href{http://www.nest-initiative.org/membership/}{the NEST Initiative}. The recent \href{https://github.com/nest/nest-simulator/releases/tag/v2.14.0 }{NEST 2.14.0 release}, for example, saw contributions from about 50 developers. With a Python API that enables quick prototyping, an active community of users and maintainers, and an \href{https://en.wikipedia.org/wiki/Open-source_model}{Open source development model}, NEST is now considered one of the go-to simulators for modelling spiking neuronal networks, especially ones that feature large numbers of neurons.
+% Introduction
+The \href{http://www.nest-simulator.org}{NEST (Neural Simulation Tool)} is one of the many software tools that are used for modelling of brain mechanisms.
+Over \href{http://www.nest-simulator.org/publications/}{300 models} have now been implemented in NEST since its initial release in 1994 as SYNOD\@.
+Since then, NEST has grown via contributions from developers from the world over under the guidance of the core team---\href{http://www.nest-initiative.org/membership/}{the NEST Initiative}.
+The most recent release, \href{https://github.com/nest/nest-simulator/releases/tag/v2.14.0 }{version 2.14.0}, saw 700 contributions from as many as 30 developers.
+With a Python API that enables quick prototyping, an active community of users and maintainers, and an \href{https://en.wikipedia.org/wiki/Open-source_model}{Open source} development model that encourages collaboration while maintaining development standards, NEST is now considered one of the go-to simulators for modelling spiking neuronal networks.
 
-NEST is aimed at the modelling of neuronal networks that use spiking neuron models on parallel hardware such as multi-core computers and clusters. This enables rather large scale simulations
+% Ease of use
+NEST provides a high level API in the Python programming language that presents a simple, unified interface for researchers with different levels of technical expertise to build their models on. 
+The API allows users access to the more than 50 neuron models and diverse set of synapse models that are built into the simulator.
+The API also includes efficient methods to inspect and modify the states of simulation entities.
+Detailed offline \href{http://www.nest-simulator.org/helpindex/}{documentation} and example scripts further supplement the API\@.
+In cases where these are insufficient, an active \href{http://mail.nest-initiative.org/cgi-bin/mailman/listinfo/nest_user }{mailing list} allows users to communicate with the NEST community.
+As an added feature, the simulator-independent \href{http://neuralensemble.org/PyNN/}{PyNN} framework also supports NEST\@.
+
+% Scalability
+One of the priorities of the development team is to take advantage of modern, parallelised hardware.
+In NEST, the same simulation code can be run on different hardware configurations without requiring the user to make any changes---from multicore PCs to clusters of connected computing cores.
+The distribution of computing tasks over the available hardware resources is handled internally by NEST\@.
+Indeed, \href{https://academic.oup.com/cercor/article/24/3/785/398560}{recent studies} have used NEST to simulate thousands of neurons and millions of synapses to study near full-scale models of local cortical microcircuits.
+
 
 \end{document}
